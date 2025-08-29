@@ -8,7 +8,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $passcode = trim($_POST['passcode']);
 
     // Validate credentials
-    if ($username === 'xor' && $passcode === '1415') {
+    if ($username === 'xor' && $passcode === '123456') {
         $tables = ['posts', 'users'];
         $success = true;
 
@@ -105,3 +105,4 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   </form>
 </body>
 </html>
+
