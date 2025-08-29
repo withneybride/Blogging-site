@@ -1,0 +1,13 @@
+<input type="password" id="password" placeholder="Enter password">
+<button type="button" onclick="togglePassword()">👁 Show</button>
+
+<script>
+function togglePassword() {
+    const pwd = document.getElementById("password");
+    if (pwd.type === "password") {
+        pwd.type = "text";   // Reveal password
+    } else {
+        pwd.type = "password"; // Hide password
+    }
+}
+</script>
